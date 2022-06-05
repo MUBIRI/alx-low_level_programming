@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+z
 /**
  * main -Entry block
  *
@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	char d;
+	int d;
+	char c;
 
 	for (d = '0'; d <= '9'; d++)
 	{
 		putchar(d);
 	}
 
-	char c;
 
 	for (c = 'a'; c <= 'f'; c++)
 	{
