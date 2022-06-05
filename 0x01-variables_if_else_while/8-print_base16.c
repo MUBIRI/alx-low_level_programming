@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib.h>
+
 /**
  * main -Entry block
  *
@@ -7,20 +7,18 @@
  */
 int main(void)
 {
-	char d = '0';
+	char d;
 
-	while (d <= '9')
+	for (d = '0'; d <= '9'; d++)
 	{
 		putchar(d);
-		d++;
 	}
 
-	char c = 'a';
+	char c;
 
-	while (c <= 'f')
+	for (c = 'a'; c <= 'f'; c++)
 	{
 		putchar(c);
-		c++;
 	}
 
 	putchar('\n');
