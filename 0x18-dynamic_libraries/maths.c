@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include "arithmetic.h"
 
 /**
  * add - addition operator
